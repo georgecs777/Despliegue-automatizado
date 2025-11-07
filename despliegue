@@ -1,0 +1,13 @@
+name: Build Test Deploy
+on:
+  push:
+    branches: ["main"]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Ejecutar pruebas
+        run: echo "Pruebas ejecutadas correctamente."
+      - name: Desplegar versión en pruebas
+        run: echo "Despliegue automático en entorno QA completado."

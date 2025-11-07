@@ -10,4 +10,4 @@ jobs:
       - name: Ejecutar pruebas
         run: echo "Pruebas ejecutadas correctamente."
       - name: Desplegar versión en pruebas
-        run: echo "Despliegue automático en entorno QA completado"
+        run: echo "Despliegue automático en entorno QA completado."
